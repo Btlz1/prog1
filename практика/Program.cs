@@ -18,7 +18,7 @@ namespace похуй
                 Console.WriteLine($"[=========ДЕНЬ {i + 1}=========]");
                 Console.WriteLine(new string('=', 26));
                 System.Threading.Thread.Sleep(700);
-                i++;
+                
                 foreach (Em em in sosalki)
                 {
                     em.Update();
